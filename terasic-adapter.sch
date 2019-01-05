@@ -595,7 +595,7 @@ Connection ~ 6700 2000
 Wire Wire Line
 	6700 2000 6500 2000
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 5B33A0DF
 P 4600 5050
 F 0 "MK2" H 4700 5096 50  0000 L CNN
@@ -606,7 +606,7 @@ F 3 "" H 4600 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 5B33C0BB
 P 4600 4850
 F 0 "MK1" H 4700 4896 50  0000 L CNN
@@ -617,7 +617,7 @@ F 3 "" H 4600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:MountingHole MK4
 U 1 1 5B33DE8E
 P 4600 5450
 F 0 "MK4" H 4700 5496 50  0000 L CNN
@@ -628,7 +628,7 @@ F 3 "" H 4600 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole MK3
 U 1 1 5B33DE94
 P 4600 5250
 F 0 "MK3" H 4700 5296 50  0000 L CNN
