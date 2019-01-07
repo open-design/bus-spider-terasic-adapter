@@ -1,5 +1,13 @@
 UEXT adapter board for Terasic FPGA development boards with 40-pin expansion headers.
 
+![PCB 3D view](/doc/pcb-3d-view.png)
+
+
+## Schematic
+
+![schematic](/doc/schematic.png)
+
+
 ## BOM
 
 | name | designation | designator | quantity | supply | datasheets |
