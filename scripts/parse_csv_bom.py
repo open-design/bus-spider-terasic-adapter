@@ -203,9 +203,8 @@ s.add_item(("SOIC-14_3.9x8.7mm_P1.27mm",), ("4066",),
            united_suppliers_url("ONS", "MC14066BDR2G"),
            "https://www.onsemi.com/pub/Collateral/MC14066B-D.PDF")
 
-# Warning: wrong part spelling ("TPS793333-EP" instead of "TPS79333-EP")
-s.add_item(("SOT-23-5",), ("TPS793333-EP",),
-           "TI TPS793333-EP",
+s.add_item(("SOT-23-5",), ("TPS79333-EP",),
+           "TI TPS79333-EP",
            united_suppliers_url("TI", "TPS79333DBVR"),
            "http://www.ti.com/lit/ds/symlink/tps793.pdf")
 
