@@ -124,8 +124,8 @@ def _get_versioned_contents(filename):
         original_contents = pcb.read()
         version_info = get_version_info()
         return original_contents \
-            .replace('COMMIT: deadbeef', 'COMMIT: ' + version_info['revision']) \
-            .replace('DATE: YYYY-MM-DD', 'DATE: ' + version_info['date'])
+            .replace(bytes('COMMIT: deadbeef', 'utf-8'), bytes('COMMIT: ' + str(version_info['revision']), 'utf-8')) \
+            .replace(bytes('DATE: YYYY-MM-DD', 'utf-8'), bytes('DATE: ' + str(version_info['date']), 'utf-8'))
 
 def get_version_info():
     git_rev = subprocess.check_output([
